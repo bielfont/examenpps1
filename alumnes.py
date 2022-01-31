@@ -14,4 +14,7 @@ def orden2():
     lista.sort(key = lambda x:x['fecha_nac'])
     print ("Ordenado por fecha nacimiento", str(lista))
 
-orden1()
+def orden3():
+    print("1")
+
+orden3()
