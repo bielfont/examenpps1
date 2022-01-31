@@ -11,7 +11,7 @@ def orden1(lista):
 def orden2(lista):
     lista.sort(key=lambda x: x['fecha_nac'])
     # print("Ordenado por fecha nacimiento", str(lista))
-    #def naix(element):
+    # def naix(element):
     #  return datetime.strptime(element['fecha_nac','%y-%m-%d'])
     #  lista.sort(key=naix)
     return str(lista)
