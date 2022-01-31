@@ -5,16 +5,18 @@ lista = [{'nombre': 'Alba', 'fecha_nac': '1996-03-02'},
 
 def orden1():
     lista.sort(key=lambda x: x['nombre'])
-    print("Ordenado por fecha nombre", str(lista))
+    # print("Ordenado por fecha nombre", str(lista))
+    return str(lista)
 
 
 def orden2():
     lista.sort(key=lambda x: x['fecha_nac'])
-    print("Ordenado por fecha nacimiento", str(lista))
+    # print("Ordenado por fecha nacimiento", str(lista))
+    return str(lista)
 
 
 def orden3():
-    print("1")
+    return "1"
 
 
 orden1()
