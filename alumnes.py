@@ -11,8 +11,6 @@ def orden2(lista):
     return str(lista)
 
 
-def orden3():
-    return "1"
 
 
 
