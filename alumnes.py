@@ -1,5 +1,5 @@
 
-from datetime import datetime
+# from datetime import datetime
 
 
 def orden1(lista):
@@ -15,8 +15,3 @@ def orden2(lista):
     #  return datetime.strptime(element['fecha_nac','%y-%m-%d'])
     #  lista.sort(key=naix)
     return str(lista)
-
-
-
-
-
