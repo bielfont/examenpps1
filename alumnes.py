@@ -1,11 +1,17 @@
 
-students = [
-  {'alumne': 'Pepe Botella', 'data_naiximent': '10-02-2005'},
-  {'alumne': 'Rafa Nadal', 'data_naiximent': '09-02-2005'},
-  {'alumne': 'Pedro Pasqua', 'data_naiximent': '10-02-2003'},
-  {'alumne': 'Manolo Mata', 'data_naiximent': '09-02-2008'},
-  {'alumne': 'Juan Gris', 'data_naiximent': '10-02-2000'},
-  {'alumne': 'Maria Debe', 'data_naiximent': '10-02-1998'}
-]
+lista = [{'nombre':'Alba', 'fecha_nac':'1996-03-02'},
+			{'nombre':'Vicente', 'fecha_nac':'1995-01-04'},
+			{'nombre':'Borja', 'fecha_nac':'1997-09-13'}]
+				
 
-print(students)
+#print ("Listado Inicial : ", str(lista))
+
+def orden1():
+    lista.sort(key = lambda x:x ['nombre'])
+    print ("Ordenado por fecha nombre", str(lista))
+
+def orden2():
+    lista.sort(key = lambda x:x['fecha_nac'])
+    print ("Ordenado por fecha nacimiento", str(lista))
+
+orden1()
